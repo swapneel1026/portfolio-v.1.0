@@ -1,4 +1,7 @@
-import HeroSection from "./components/HeroSection";
+import AboutMe from "./components/AboutMe";
+import ContactSection from "./components/ContactSection";
+import ExperienceSection from "./components/ExperienceSection";
+import ProjectSection from "./components/ProjectSection";
 import TopNav from "./components/TopNav";
 
 export default function Home() {
@@ -6,13 +9,23 @@ export default function Home() {
     <>
       <main className="">
         <TopNav />
-        <section>
-          <HeroSection />
-        </section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <div className="grid grid-rows-4 text-white">
+          {/* <section>
+            <HeroSection />
+          </section> */}
+          <section>
+            <AboutMe />
+          </section>
+          <section>
+            <ProjectSection />
+          </section>
+          <section>
+            <ExperienceSection />
+          </section>
+          <section>
+            <ContactSection />
+          </section>
+        </div>
       </main>
     </>
   );

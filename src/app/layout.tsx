@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={poppins.className}>
         <div className="flex flex-1 selection:bg-[#0aff9d] selection:text-black ">
           <SideNavbar />
-          {children}
+          <div className="w-full bg-[#111111]">{children}</div>
         </div>
       </body>
     </html>

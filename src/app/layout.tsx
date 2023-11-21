@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import SideNavbar from "./components/SideNavbar";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -21,7 +22,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        <div className="flex flex-1 selection:bg-[#0aff9d] selection:text-black ">
+          <SideNavbar />
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

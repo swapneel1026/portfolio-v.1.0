@@ -1,14 +1,11 @@
-import SideNavbar from "./components/SideNavbar";
-
 export default function Home() {
   return (
     <>
       <main>
         {/* <TopNav /> */}
-        <aside>
-          <SideNavbar />
-        </aside>
-        <article></article>
+        <h1 id="demo" className="mt-[8000px]">
+          Hello
+        </h1>
       </main>
     </>
   );

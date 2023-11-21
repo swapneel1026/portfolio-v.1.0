@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const TopNav = () => {
   return (
-    <header className="bg-[hsla(0,0%,7%,.25)] w-full h-[5rem] sticky z-20 top-0 backdrop-blur-md flex items-center justify-between p-4">
+    <header className="bg-[hsla(0,0%,7%,.25)] w-full h-[4rem] lg:h-[5rem] sticky z-20 top-0 backdrop-blur-md flex items-center justify-between p-4">
       <section className="flex space-x-4 ">
         <Link
           href={"https://github.com/swapneel1026"}

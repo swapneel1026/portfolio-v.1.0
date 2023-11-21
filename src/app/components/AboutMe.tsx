@@ -2,6 +2,33 @@ import { CodeIcon, FaceIcon } from "@radix-ui/react-icons";
 import SkillsCard from "./SkillsCard";
 
 const AboutMe = () => {
+  const languagesAndFrameworks = [
+    "Next.JS",
+    "React.JS",
+    "JavaScript",
+    "TypeScript",
+    "Tailwind CSS",
+    "HTML",
+    "CSS",
+    "Node.JS",
+    "Express.JS",
+    "MongoDB",
+  ];
+  const toolAndLibraries = [
+    "React-Query",
+    "Axios",
+    "Prisma-Client",
+    "Zustand",
+    "Git",
+    "VS-code",
+    "Shadcn-ui",
+    "Radix-ui",
+    "react-skeleton",
+    "Recharts",
+    "React-hook-form",
+    "React-table",
+    "CVA",
+  ];
   return (
     <div className="text-white">
       <header className="flex items-center justify-center ">
@@ -33,10 +60,12 @@ const AboutMe = () => {
           <SkillsCard
             title="Languages & Frameworks"
             icon={<CodeIcon color="#0aff9d" height={30} width={30} />}
+            skills={languagesAndFrameworks}
           />
           <SkillsCard
             title="Tools & Libraries"
             icon={<FaceIcon color="#0aff9d" height={30} width={30} />}
+            skills={toolAndLibraries}
           />
         </div>
       </section>

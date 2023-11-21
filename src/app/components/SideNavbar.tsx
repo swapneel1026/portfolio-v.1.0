@@ -4,19 +4,19 @@ const SideNavbar = () => {
   const links = [
     {
       linkName: "About",
-      href: "/about",
+      href: "#about",
     },
     {
       linkName: "Projects",
-      href: "",
+      href: "#projects",
     },
     {
       linkName: "Exp.",
-      href: "",
+      href: "#exp",
     },
     {
       linkName: "Contact",
-      href: "",
+      href: "#contact",
     },
   ];
   return (
@@ -26,8 +26,8 @@ const SideNavbar = () => {
       </p>
       {links.map((link) => (
         <Link
-          key={link.href}
-          className=" transition-all duration-300 hover:opacity-100 opacity-60 rotate-90 border-t-4 border-[#000] hover:border-t-4 hover:border-[#0aff9d] my-10 py-[15px] min-w-[7rem]  flex justify-center"
+          key={link.linkName}
+          className="active:border-t-4 active:border-[#0aff9d]active transition-all duration-300 hover:opacity-100 opacity-60 rotate-90 border-t-4 border-[#000] hover:border-t-4 hover:border-[#0aff9d] my-10 py-[15px] min-w-[7rem]  flex justify-center"
           href={link.href ?? "/"}
         >
           {link.linkName}

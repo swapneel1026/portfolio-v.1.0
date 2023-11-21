@@ -1,6 +1,9 @@
+"use client";
 import Link from "next/link";
+import { useState } from "react";
 
 const SideNavbar = () => {
+  const [selected, setselected] = useState("");
   const links = [
     {
       linkName: "About",
@@ -27,7 +30,12 @@ const SideNavbar = () => {
       {links.map((link) => (
         <Link
           key={link.linkName}
-          className="active:border-t-4 active:border-[#0aff9d]active transition-all duration-300 hover:opacity-100 opacity-60 rotate-90 border-t-4 border-[#000] hover:border-t-4 hover:border-[#0aff9d] my-10 py-[15px] min-w-[7rem]  flex justify-center"
+          onClick={() => setselected(link.href)}
+          className={`${
+            selected === link.href
+              ? "border-t-4 border-[#0aff9d]"
+              : "border-t-4 border-[#000]"
+          } transition-all duration-300 hover:opacity-100 opacity-60 rotate-90  hover:border-t-4 hover:border-[#0aff9d] my-[1.5625rem] py-[0.9375rem] min-w-[7rem]  flex justify-center`}
           href={link.href ?? "/"}
         >
           {link.linkName}

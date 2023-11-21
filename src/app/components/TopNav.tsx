@@ -1,4 +1,3 @@
-"use client";
 import {
   GitHubLogoIcon,
   InstagramLogoIcon,
@@ -33,7 +32,7 @@ const TopNav = () => {
       </section>
       <section>
         <Link
-          className="border text-[0.8rem] sm:text-[1.5rem] border-[#0aff9d] p-1 md:p-3 rounded-md text-[#0aff9d] hover:bg-[#0aff9d] animate-pulse  hover:text-[#000] hover:transition-opacity duration-300  shadow-inner shadow-[#0aff9d]"
+          className="border text-[0.8rem] sm:text-[1.2rem] border-[#0aff9d] p-1 sm:p-2 rounded-md text-[#0aff9d] hover:bg-[#0aff9d] animate-pulse  hover:text-[#000] hover:transition-opacity duration-300  shadow-inner shadow-[#0aff9d]"
           href={
             "https://drive.google.com/drive/folders/1FsguUp4mgSDLDJR7N-hkIaBEryekqcsA/"
           }

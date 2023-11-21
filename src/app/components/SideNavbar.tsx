@@ -26,6 +26,7 @@ const SideNavbar = () => {
       </p>
       {links.map((link) => (
         <Link
+          key={link.href}
           className="active:text-7xl transition-all duration-300 hover:opacity-100 opacity-60 rotate-90 border-t-4 border-[#232323] hover:border-t-4 hover:border-[#0aff9d] my-10 py-[0.5625rem] min-w-[7rem]  flex justify-center"
           href={link.href ?? "/"}
         >

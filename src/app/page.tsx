@@ -11,7 +11,7 @@ export default function Home() {
       <main className="">
         <TopNav />
         <div className="grid sm:grid-rows-4 text-white">
-          <section className="pt-[4rem] md:pt-[5rem]" id="contact">
+          <section className="pt-[4rem] md:pt-[5rem]" id="main">
             <HeroSection />
           </section>
           <section
@@ -20,13 +20,13 @@ export default function Home() {
           >
             <AboutMe />
           </section>
-          <section id="projects">
+          <section id="projects" className="pt-[4rem] md:pt-[5rem]">
             <ProjectSection />
           </section>
-          <section id="exp">
+          <section id="exp" className="pt-[4rem] md:pt-[5rem]">
             <ExperienceSection />
           </section>
-          <section id="contact">
+          <section id="contact" className="pt-[4rem] md:pt-[5rem]">
             <ContactSection />
           </section>
         </div>

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <div className="p-2 md:p-6 max-w-[14rem] md:max-w-lg lg:max-w-xl xl:max-w-3xl  mx-auto">
+    <div className="p-2 md:p-6 xl:max-w-6xl m-auto flex flex-col flex-wrap">
       <h1 className="text-white text-[2.5rem] md:text-[4rem] lg:text-[6rem] font-extrabold">
         Hey,I'm Swapneel<span className="text-[#0aff9d]">.</span>
       </h1>

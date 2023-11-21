@@ -5,7 +5,7 @@ type SkillProps = {
 };
 const SkillsCard = ({ title, skills, icon }: SkillProps) => {
   return (
-    <div>
+    <div className="border-2 p-2 rounded-xl shadow-lg shadow-slate-400">
       <h1 className="flex gap-3 font-bold text-lg  items-center">
         <span>{icon}</span>
         {title}

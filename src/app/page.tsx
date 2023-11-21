@@ -14,10 +14,7 @@ export default function Home() {
           <section className="pt-[4rem] md:pt-[5rem]" id="main">
             <HeroSection />
           </section>
-          <section
-            id="about"
-            className="md:mt-[-5rem] lg:mt-[2rem] xl:mt-[-2rem] pt-[4rem] md:pt-[5rem]"
-          >
+          <section id="about" className="pt-[4rem] md:pt-[5rem]">
             <AboutMe />
           </section>
           <section id="projects" className="pt-[4rem] md:pt-[5rem]">

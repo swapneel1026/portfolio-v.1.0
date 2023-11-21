@@ -1,6 +1,9 @@
+import { EnvelopeClosedIcon } from "@radix-ui/react-icons";
+import Link from "next/link";
+
 const ContactSection = () => {
   return (
-    <div className="text-white">
+    <div className="text-white h-screen">
       <header className="flex items-center justify-center ">
         <h1 className="text-3xl lg:text-7xl font-extrabold">
           Contact
@@ -8,34 +11,32 @@ const ContactSection = () => {
         </h1>
         <hr className="w-[40%] mx-4" />
       </header>
-      <section className="grid place-content-center place-items-center md:grid-cols-2 gap-[4rem] px-8 mx-2 mt-4">
-        <div className="flex flex-col gap-8 space-y-4">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
-            voluptates mollitia repellendus magni at nobis tempora eius et in
-            sunt eligendi sit neque quia, tenetur tempore voluptatibus
-            asperiores, veniam suscipit dolore eaque deserunt temporibus
-            perferendis. Exercitationem, sunt. Optio beatae voluptatum, vel
-            accusantium corrupti odio mollitia id voluptates nesciunt fuga
-            praesentium! Ipsum quam inventore nesciunt ex totam culpa
-            accusantium iusto! Nisi eaque officiis voluptate praesentium sequi
-            ea atque illo placeat soluta? Et at debitis aspernatur ea veritatis!
-            Sunt quos et libero explicabo natus ab, quas hic molestiae minima
-            vitae nemo, esse laudantium cum fuga! In odio autem non nesciunt?
-            Veniam doloremque facilis optio qui reiciendis natus dolore
-            quibusdam quia consectetur est numquam consequatur magni laborum
-            omnis sunt, nemo sapiente placeat recusandae saepe rem. Dicta
-            corrupti vitae voluptas debitis quidem consectetur voluptate
-            veritatis quia dignissimos pariatur voluptates laudantium, natus
-            nostrum ipsam a sit neque exercitationem quis odit deleniti optio
-            error! Veritatis, obcaecati eveniet! Magni eaque vero obcaecati nemo
-            iure deserunt quo in voluptas voluptatem dolorum commodi ducimus
-            quod cum explicabo, odit aut? Nam, quisquam recusandae dignissimos
-            ullam temporibus, officia blanditiis quidem odio accusantium
-            obcaecati sit fuga voluptate illo atque fugiat omnis aliquam nemo
-            asperiores natus consequatur molestias dolore? Laborum repellat
-            dolor est.
+      <section className=" mt-4 md:mt-16">
+        <div className="flex flex-col">
+          <p className="font-light text-center mt-4 lg:text-2xl">
+            Shoot me an email if you want to connect! You can also find me on{" "}
+            <span className="text-[#0aff9d]">
+              <Link href={"https://www.linkedin.com/in/swapneel-shubham"}>
+                LinkedIn
+              </Link>
+            </span>{" "}
+            or{" "}
+            <span className="text-[#0aff9d]">
+              <Link href={"https://instagram.com/neeel4642"}>Instagram</Link>
+            </span>{" "}
+            if that's more your speed.
           </p>
+          <Link
+            href={"mailto:swapneelshubham44@gmail.com"}
+            className="flex flex-col md:flex-row mt-10 md:mt-0 items-center gap-2 mx-auto "
+          >
+            <EnvelopeClosedIcon
+              height={"26"}
+              width={"26"}
+              className="text-[#0aff9d]"
+            />
+            <p className="text-xs md:text-xl">swapneelshubham44@gmail.com</p>
+          </Link>
         </div>
       </section>
     </div>

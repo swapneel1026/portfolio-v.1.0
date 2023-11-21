@@ -16,7 +16,7 @@ const HeroSection = () => {
         commodi ab ex illum? Eos numquam ab inventore dolorum fugiat, minus,
         repudiandae dolore qui voluptas vitae cupiditate modi! Sequi
       </p>
-      <Link href={""}>
+      <Link href={"#contact"}>
         <button
           className="bg-[#0aff9d] text-black py-2 px-3 md:py-3 md:px-5 text-lg rounded-md mt-5 hover:brightness-90 hover:transition-all duration-200"
           type="button"

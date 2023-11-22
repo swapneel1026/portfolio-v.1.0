@@ -22,12 +22,14 @@ export function ProjectCard({ data }: any) {
         {data?.name}
         <span className="inline-flex gap-2 ">
           <Link
+            className="transition-all duration-200 text-[#ebecf3] hover:text-[#0aff9d]  "
             href={data?.githubLink}
             target={data?.githubLink ? "_blank" : "_self"}
           >
             <GitHubLogoIcon height={25} width={25} />
           </Link>
           <Link
+            className="transition-all duration-200 text-[#ebecf3] hover:text-[#0aff9d] "
             href={data?.liveProjectLink}
             target={data?.liveProjectLink ? "_blank" : "_self"}
           >

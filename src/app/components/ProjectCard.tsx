@@ -1,8 +1,18 @@
 import { ExitIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
+import Link from "next/link";
 
-export function ProjectCard({}) {
-  const techStack = ["next", "tailwind", "javascript", "Typescript"];
+// type dataprops = {
+//   imageOfProject: string;
+//   name: string;
+//   techStackUsed: string[];
+//   desc: string;
+//   githubLink: string;
+//   liveProjectLink: string;
+// };
+export function ProjectCard({ data }: any) {
+  const techStack = [...data?.techStackUsed];
+  console.log(data.imageOfProject);
   return (
     <article className="sm:max-w-xs md:max-w-sm  xl:max-w-2xl ">
       <div className="bg-[#232323] px-4 pt-6 rounded-lg pb-0  flex items-center justify-center">
@@ -18,9 +28,11 @@ export function ProjectCard({}) {
         />
       </div>
       <h1 className="text-white font-bold text-lg flex items-center justify-between mt-4">
-        Ticket Tracker
+        {data?.imageOfProject}
         <span className="inline-flex gap-2 ">
-          <GitHubLogoIcon height={25} width={25} />
+          <Link href={""}>
+            <GitHubLogoIcon height={25} width={25} />
+          </Link>
           <ExitIcon height={25} width={25} />
         </span>
       </h1>
@@ -30,9 +42,10 @@ export function ProjectCard({}) {
         }`}</p>
       ))}
       <p className="text-white text-sm font-[200]">
-        Think Zapier but for paint. Built with a team of four college friends
-        and scaled to 1 billion requests per day. This was a fun one.{" "}
-        <span>Learn More</span>
+        {data?.desc} <br />
+        <span role="button" className="text-[#0aff9b]">
+          Learn More
+        </span>
       </p>
     </article>
   );

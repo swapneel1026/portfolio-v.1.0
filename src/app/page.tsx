@@ -10,8 +10,8 @@ export default function Home() {
     <>
       <main className="">
         <TopNav />
-        <div className="grid sm:grid-rows-4 text-white">
-          <section className="pt-[4rem] md:pt-[5rem]" id="main">
+        <div className="flex flex-col items-stretch">
+          <section className="pt-[4rem] md:pt-[5rem] h-screen" id="main">
             <HeroSection />
           </section>
           <section id="about" className="pt-[4rem] md:pt-[5rem]">

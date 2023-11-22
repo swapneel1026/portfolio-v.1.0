@@ -4,10 +4,10 @@ const HeroSection = () => {
   return (
     <div className="p-2  md:px-8 xl:max-w-6xl  flex flex-col flex-wrap justify-stretch">
       <h1 className="text-white text-[2.5rem] md:text-[4rem] lg:text-[6rem] font-extrabold">
-        Hey,I'm Swapneel<span className="text-[#0aff9d]">.</span>
+        Hey,I&apos;m Swapneel<span className="text-[#0aff9d]">.</span>
       </h1>
       <h2 className="text-white font-normal text-[2rem]">
-        I'm a{" "}
+        I&apos;m a{" "}
         <span className="text-[#0aff9d] font-bold">Frontend Developer</span>
       </h2>
       <p className="text-white font-extralight mt-4 md:text-[1.3rem] ">

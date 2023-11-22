@@ -4,6 +4,7 @@ import { useState } from "react";
 
 const SideNavbar = () => {
   const [selected, setselected] = useState("");
+
   const links = [
     {
       linkName: "About",

@@ -36,9 +36,10 @@ export function ProjectCard({ data }: any) {
         </span>
       </h1>
       {techStack.map((t, i) => (
-        <p className="inline-flex capitalize text-[#0aff9d] text-sm">{`${t}${
-          i !== techStack.length - 1 ? "-" : ""
-        }`}</p>
+        <p
+          key={i}
+          className="inline-flex capitalize text-[#0aff9d] text-sm"
+        >{`${t}${i !== techStack.length - 1 ? "-" : ""}`}</p>
       ))}
       <p className="text-white text-sm font-[200]">
         {data?.desc} <br />

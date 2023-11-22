@@ -43,10 +43,14 @@ const ProjectSection = () => {
         </h1>
         <hr className="w-[40%] mx-4" />
       </header>
-      <section className="gap-[4rem] flex mx-auto mt-4 ">
+      <section className="gap-[4rem] flex  mt-4 ">
         <div
           className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ${
-            PorjectData.length > 3 ? "xl:grid-cols-4" : "xl:grid-cols-3"
+            PorjectData.length >= 3
+              ? "xl:grid-cols-4"
+              : PorjectData.length == 2
+              ? "xl:grid-cols-2 lg:grid-cols-2"
+              : ""
           } gap-8 p-3 md:p-4 `}
         >
           {PorjectData.map((d) => (

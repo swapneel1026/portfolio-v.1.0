@@ -24,7 +24,7 @@ const ContactSection = () => {
             <span className="text-[#0aff9d]">
               <Link href={"https://instagram.com/neeel4642"}>Instagram</Link>
             </span>{" "}
-            if that's more your speed.
+            if that&apos;s more your speed.
           </p>
           <Link
             href={"mailto:swapneelshubham44@gmail.com"}

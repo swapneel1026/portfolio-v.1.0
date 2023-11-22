@@ -41,7 +41,7 @@ const AboutMe = () => {
       </header>
       <section className="grid place-content-center place-items-center md:grid-cols-2 gap-[4rem] px-8 mx-2 mt-4">
         <p className="flex flex-wrap text-[0.9375rem]">
-          Hello there! I'm a dedicated developer with a knack for weaving
+          Hello there! I&apos;m a dedicated developer with a knack for weaving
           seamless web applications, blending functionality with a delightful
           user experience. My toolkit is brimming with cutting-edge
           technologies, and I thrive on the intricacies of crafting robust
@@ -63,7 +63,7 @@ const AboutMe = () => {
           table functionalities. Completing my toolkit is CVA (Control Value
           Accessor), enabling the creation of custom form controls with finesse.
           I’m passionate about turning ideas into elegantly functioning,
-          visually captivating, and user-friendly web applications. Let's
+          visually captivating, and user-friendly web applications. Let&apos;s
           collaborate to bring your vision to life!
           <span className="mt-4">
             <MyLinks />

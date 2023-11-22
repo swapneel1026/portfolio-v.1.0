@@ -1,4 +1,5 @@
 import { CodeIcon, FaceIcon } from "@radix-ui/react-icons";
+import { MyLinks } from "./MyLinks";
 import SkillsCard from "./SkillsCard";
 
 const AboutMe = () => {
@@ -55,6 +56,9 @@ const AboutMe = () => {
           natus labore assumenda expedita accusantium commodi quod! Eum debitis
           recusandae sit, tempora, autem adipisci excepturi commodi aspernatur
           enim nobis alias sint non repudiandae reprehenderit quod veniam est
+          <span className="mt-4">
+            <MyLinks />
+          </span>
         </p>
         <div className="flex flex-col gap-8 space-y-4">
           <SkillsCard

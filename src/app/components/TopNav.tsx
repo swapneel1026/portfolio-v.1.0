@@ -11,12 +11,13 @@ const TopNav = () => {
       <section className="flex space-x-4 ">
         <Link
           href={"https://github.com/swapneel1026"}
+          target="_blank"
           className="transition-all duration-200 text-[#ebecf3] hover:text-[#0aff9d] opacity-50 hover:opacity-100"
         >
           <GitHubLogoIcon color="currentColor" height={"40"} width={"25"} />
         </Link>
         <Link
-          href={"/"}
+          href={"https://instagram.com/neeel4642"}
           target="_blank"
           className="transition-all duration-200 text-[#ebecf3] hover:text-[#0aff9d] opacity-50 hover:opacity-100"
         >

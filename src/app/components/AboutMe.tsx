@@ -40,22 +40,31 @@ const AboutMe = () => {
         <hr className="w-[40%] mx-4" />
       </header>
       <section className="grid place-content-center place-items-center md:grid-cols-2 gap-[4rem] px-8 mx-2 mt-4">
-        <p className="flex flex-wrap">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem tempore
-          aspernatur, voluptates exercitationem quas, ipsa eveniet quo eligendi
-          modi fuga esse, voluptatibus deserunt hic quos distinctio possimus
+        <p className="flex flex-wrap text-[0.9375rem]">
+          Hello there! I'm a dedicated developer with a knack for weaving
+          seamless web applications, blending functionality with a delightful
+          user experience. My toolkit is brimming with cutting-edge
+          technologies, and I thrive on the intricacies of crafting robust
+          solutions. I specialize in Next.JS and React.JS, leveraging
+          server-side rendering for performance and creating interactive
+          interfaces. JavaScript and TypeScript are my languages of choice,
+          adding flair to my projects. Tailwind CSS, HTML, and CSS form the
+          trifecta for creating stunning, responsive designs, while Node.JS and
+          Express.JS power my scalable backends, synchronized with MongoDB.
           <br />
           <br />
-          ullam quibusdam illo earum magni reprehenderit deleniti! Omnis eius
-          porro consectetur rem, obcaecati laboriosam modi neque corporis
-          placeat unde amet assumenda impedit corrupti reprehenderit id.
-          <br />
-          <br />
-          Laboriosam in quidem porro eaque sed suscipit officia excepturi
-          voluptate corporis veritatis magni explicabo minus culpa, possimus,
-          natus labore assumenda expedita accusantium commodi quod! Eum debitis
-          recusandae sit, tempora, autem adipisci excepturi commodi aspernatur
-          enim nobis alias sint non repudiandae reprehenderit quod veniam est
+          In my arsenal of tools and libraries, React-Query and Axios streamline
+          data fetching, while Prisma-Client ensures type-safe database
+          interactions. Zustand provides a lightweight state management
+          solution, and Git coupled with VS Code keeps my workflow seamless. I
+          bring UI to life with Shadcn-ui and Radix-ui, and employ
+          react-skeleton for smooth loading animations. Recharts paints vivid
+          data stories, and React-hook-form and React-table enhance form and
+          table functionalities. Completing my toolkit is CVA (Control Value
+          Accessor), enabling the creation of custom form controls with finesse.
+          I’m passionate about turning ideas into elegantly functioning,
+          visually captivating, and user-friendly web applications. Let's
+          collaborate to bring your vision to life!
           <span className="mt-4">
             <MyLinks />
           </span>

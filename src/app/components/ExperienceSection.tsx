@@ -8,7 +8,7 @@ const ExperienceSection = () => {
       compPosition: "Frontend Developer",
       workCity: "Mumbai(Remote)",
       aboutComp:
-        "I bring valuable expertise to software development, demonstrated through my pivotal role in the 'Fastengage' project. I led the design and construction of a user-friendly MCQ assessment interface, implemented API calls for data integrity, and optimized state management using Zustand. My contributions also include managing special projects, validating pre-project analysis, and developing algorithms for efficient module assessment. My proactive approach and hands-on experience underline my commitment to driving success in software development.",
+        "I brought valuable expertise to software development, demonstrated through my pivotal role in the 'Fastengage' project. I led the design and construction of a user-friendly MCQ assessment interface, implemented API calls for data integrity, and optimized state management using Zustand. My contributions also include managing special projects, validating pre-project analysis, and developing algorithms for efficient module assessment. My proactive approach and hands-on experience underline my commitment to driving success in software development.",
     },
 
     {

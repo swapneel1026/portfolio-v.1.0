@@ -15,10 +15,10 @@ export function ProjectCard({ data }: any) {
           style={{
             objectFit: "inherit",
           }}
-          className="hover:skew-y-3 transition-transform duration-1000 hover:scale-105 rounded-lg"
+          className="hover:rotate-[0deg] rotate-[-6deg] transition-transform duration-1000 hover:scale-110 scale-75 rounded-lg"
         />
       </div>
-      <h1 className="text-white font-bold text-lg flex items-center justify-between mt-4">
+      <h1 className="text-white font-bold text-lg flex items-center justify-between mt-8">
         {data?.name}
         <span className="inline-flex gap-2 ">
           <Link

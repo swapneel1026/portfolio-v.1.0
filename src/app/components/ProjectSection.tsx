@@ -1,3 +1,4 @@
+import { ProjectCard } from "./ProjectCard";
 const ProjectSection = () => {
   return (
     <div className="text-white ">
@@ -8,8 +9,12 @@ const ProjectSection = () => {
         </h1>
         <hr className="w-[40%] mx-4" />
       </header>
-      <section className="grid place-content-center place-items-center md:grid-cols-2 gap-[4rem] px-8 mx-2 mt-4">
-        <div className="flex flex-col gap-8 space-y-4"></div>
+      <section className="gap-[4rem] mx-auto mt-4">
+        <div className="grid auto-cols-max grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 p-3 md:p-4 ">
+          {[1, 2, 3, 4, 5, 6, 7, 8].map((n) => (
+            <ProjectCard />
+          ))}
+        </div>
       </section>
     </div>
   );

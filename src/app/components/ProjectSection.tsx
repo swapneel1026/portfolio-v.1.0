@@ -7,7 +7,7 @@ const ProjectSection = () => {
       techStackUsed: ["next.js", "tailwind", "javascript", "Typescript"],
       desc: "Think Zapier but for paint. Built with a team of four college friends and scaled to 1 billion requests per day. This was a fun one.",
       githubLink: "https://github.com/swapneel1026/portfolio-v.1.0",
-      liveProjectLink: "",
+      liveProjectLink: "https://frontendswapneel.vercel.app/",
     },
     {
       imageOfProject: "/ticketsc.png",

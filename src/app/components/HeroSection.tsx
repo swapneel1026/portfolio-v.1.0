@@ -11,10 +11,16 @@ const HeroSection = () => {
         <span className="text-[#0aff9d] font-bold">Frontend Developer</span>
       </h2>
       <p className="text-white font-extralight mt-4 md:text-[1.3rem] ">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste animi, ut
-        expedita perspiciatis temporibus fugiat iusto incidunt eveniet sit,
-        commodi ab ex illum? Eos numquam ab inventore dolorum fugiat, minus,
-        repudiandae dolore qui voluptas vitae cupiditate modi! Sequi
+        Cultivating a realm of frontend excellence while delving into the
+        intricacies of backend brilliance, my professional journey is a fusion
+        of design finesse and technical prowess. With a keen eye for crafting
+        visually stunning and user-centric frontend experiences, I bring
+        creativity and innovation to the digital forefront. Simultaneously, my
+        exploration of backend intricacies involves navigating the complexities
+        of data architecture, ensuring robust functionalities, and contributing
+        to the seamless synergy of both ends. This dual expertise encapsulates
+        my commitment to delivering comprehensive and top-tier solutions in the
+        ever-evolving landscape of web development.
       </p>
       <Link href={"#contact"}>
         <button

@@ -5,9 +5,9 @@ const ProjectSection = () => {
       imageOfProject: "/portfollio-sc.png",
       name: "PortFolio V.1.0",
       techStackUsed: ["next.js", "tailwind", "javascript", "Typescript"],
-      desc: "Think Zapier but for paint. Built with a team of four college friends and scaled to 1 billion requests per day. This was a fun one.",
+      desc: "Crafted a sleek portfolio app with Next.js, Tailwind, and a blend of JavaScript and TypeScript for a dynamic touch. The design is not only visually appealing but also responsive, ensuring a seamless user experience across devices. This project showcases my proficiency in modern web development technologies, emphasizing both aesthetic design and functional responsiveness.",
       githubLink: "https://github.com/swapneel1026/portfolio-v.1.0",
-      liveProjectLink: "",
+      liveProjectLink: "https://frontendswapneel.vercel.app/",
     },
     {
       imageOfProject: "/ticketsc.png",
@@ -20,7 +20,7 @@ const ProjectSection = () => {
         "prismaClient",
         "planetscaleDB",
       ],
-      desc: "Think Zapier but for paint. Built with a team of four college friends and scaled to 1 billion requests per day. This was a fun one.",
+      desc: "Developed a dynamic Ticket Tracker app with Next.js, Prisma, and Planetscale DB, showcasing strong proficiency. Designed a user-friendly UI for seamless navigation, implemented CRUD operations, and created a Dashboard Interface with bar graphs for quick status checks. Deployed securely on Vercel, demonstrating expertise in Next.js, Prisma, and Planetscale for efficient ticket tracking.",
 
       githubLink: "https://github.com/swapneel1026/tickettracker",
       liveProjectLink: "https://tickettracker.vercel.app/",

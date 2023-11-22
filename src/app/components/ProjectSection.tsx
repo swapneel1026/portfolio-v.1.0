@@ -2,30 +2,37 @@ import { ProjectCard } from "./ProjectCard";
 const ProjectSection = () => {
   const PorjectData = [
     {
-      imageOfProject: "Ticket Tracker",
-      name: "",
-      techStackUsed: ["next", "tailwind", "javascript", "Typescript"],
+      imageOfProject: "/portfollio-sc.png",
+      name: "PortFolio V.1.0",
+      techStackUsed: ["next.js", "tailwind", "javascript", "Typescript"],
       desc: "Think Zapier but for paint. Built with a team of four college friends and scaled to 1 billion requests per day. This was a fun one.",
-      githubLink: "",
+      githubLink: "https://github.com/swapneel1026/portfolio-v.1.0",
       liveProjectLink: "",
     },
     {
-      imageOfProject: "Portofolio Website",
-      name: "",
-      techStackUsed: ["next", "tailwind", "javascript"],
+      imageOfProject: "/ticketsc.png",
+      name: "Ticket Tracker",
+      techStackUsed: [
+        "next.js",
+        "tailwind",
+        "javascript",
+        "typescript",
+        "prismaClient",
+        "planetscaleDB",
+      ],
       desc: "Think Zapier but for paint. Built with a team of four college friends and scaled to 1 billion requests per day. This was a fun one.",
 
-      githubLink: "",
-      liveProjectLink: "",
+      githubLink: "https://github.com/swapneel1026/tickettracker",
+      liveProjectLink: "https://tickettracker.vercel.app/",
     },
-    {
-      imageOfProject: "Netflix clone",
-      name: "",
-      techStackUsed: ["next", "tailwind", "javascript", "Css", "HTML"],
-      desc: "Think Zapier but for paint. Built with a team of four college friends and scaled to 1 billion requests per day. This was a fun one.",
-      githubLink: "",
-      liveProjectLink: "",
-    },
+    // {
+    //   imageOfProject: "Netflix clone",
+    //   name: "",
+    //   techStackUsed: ["next", "tailwind", "javascript", "Css", "HTML"],
+    //   desc: "Think Zapier but for paint. Built with a team of four college friends and scaled to 1 billion requests per day. This was a fun one.",
+    //   githubLink: "",
+    //   liveProjectLink: "",
+    // },
   ];
   return (
     <div className="text-white ">
@@ -43,7 +50,7 @@ const ProjectSection = () => {
           } gap-8 p-3 md:p-4 `}
         >
           {PorjectData.map((d) => (
-            <ProjectCard data={d} />
+            <ProjectCard key={d.name} data={d} />
           ))}
         </div>
       </section>

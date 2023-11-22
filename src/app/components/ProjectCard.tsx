@@ -2,22 +2,13 @@ import { ExitIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
 
-// type dataprops = {
-//   imageOfProject: string;
-//   name: string;
-//   techStackUsed: string[];
-//   desc: string;
-//   githubLink: string;
-//   liveProjectLink: string;
-// };
 export function ProjectCard({ data }: any) {
   const techStack = [...data?.techStackUsed];
-  console.log(data.imageOfProject);
   return (
     <article className="sm:max-w-xs md:max-w-sm  xl:max-w-2xl ">
       <div className="bg-[#232323] px-4 pt-6 rounded-lg pb-0  flex items-center justify-center">
         <Image
-          src={"/screeenshot.png"}
+          src={data?.imageOfProject as string}
           alt=""
           width={500}
           height={500}
@@ -28,12 +19,20 @@ export function ProjectCard({ data }: any) {
         />
       </div>
       <h1 className="text-white font-bold text-lg flex items-center justify-between mt-4">
-        {data?.imageOfProject}
+        {data?.name}
         <span className="inline-flex gap-2 ">
-          <Link href={""}>
+          <Link
+            href={data?.githubLink}
+            target={data?.githubLink ? "_blank" : "_self"}
+          >
             <GitHubLogoIcon height={25} width={25} />
           </Link>
-          <ExitIcon height={25} width={25} />
+          <Link
+            href={data?.liveProjectLink}
+            target={data?.liveProjectLink ? "_blank" : "_self"}
+          >
+            <ExitIcon height={25} width={25} />
+          </Link>
         </span>
       </h1>
       {techStack.map((t, i) => (

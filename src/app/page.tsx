@@ -11,7 +11,7 @@ export default function Home() {
       <main className="">
         <TopNav />
         <div className="flex flex-col items-stretch">
-          <section className="pt-[4rem] md:pt-[5rem] h-screen" id="main">
+          <section className="pt-[4rem] md:pt-[5rem] " id="main">
             <HeroSection />
           </section>
           <section id="about" className="pt-[4rem] md:pt-[5rem]">

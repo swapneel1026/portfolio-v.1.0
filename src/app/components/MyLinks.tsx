@@ -5,7 +5,7 @@ import {
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
 import Link from "next/link";
-export function MyLinks({}) {
+export function MyLinks() {
   return (
     <div className="inline-flex gap-4">
       <p className="inline-flex gap-1 items-center   text-[#0aff9d]">
@@ -15,7 +15,7 @@ export function MyLinks({}) {
         </span>
       </p>
 
-      <span className="flex space-x-2 ">
+      <div className="flex space-x-2 ">
         <Link
           href={"https://github.com/swapneel1026"}
           className="transition-all duration-200 text-[#ebecf3] hover:text-[#0aff9d] opacity-50 hover:opacity-100"
@@ -36,7 +36,7 @@ export function MyLinks({}) {
         >
           <LinkedInLogoIcon color="currentColor" height={"40"} width={"25"} />
         </Link>
-      </span>
+      </div>
     </div>
   );
 }

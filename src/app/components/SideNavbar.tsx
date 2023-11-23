@@ -39,8 +39,8 @@ const SideNavbar = () => {
           className={`${
             selected === link.href
               ? "border-t-4 border-[#0aff9d] opacity-100"
-              : "border-t-4 border-[#000]"
-          } transition-all duration-300 hover:opacity-100 opacity-60 rotate-90  hover:border-t-4 hover:border-[#0aff9d] my-[1.5625rem] py-[0.9375rem] min-w-[7rem]  flex justify-center`}
+              : "border-t-4 border-[#000] opacity-60"
+          } transition-all duration-300 hover:opacity-100  rotate-90  hover:border-t-4 hover:border-[#0aff9d] my-[1.5625rem] py-[0.9375rem] min-w-[7rem]  flex justify-center`}
           href={link.href ?? "/"}
         >
           {link.linkName}

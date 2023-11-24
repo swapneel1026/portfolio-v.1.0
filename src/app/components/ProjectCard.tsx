@@ -45,9 +45,9 @@ export function ProjectCard({ data }: any) {
       ))}
       <p className="text-white text-sm font-[200]">
         {data?.desc} <br />
-        <span role="button" className="text-[#0aff9b]">
+        {/* <span role="button" className="text-[#0aff9b]">
           Learn More
-        </span>
+        </span> */}
       </p>
     </article>
   );

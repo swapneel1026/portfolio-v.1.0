@@ -14,8 +14,6 @@ export default function Home() {
         console.log(entry);
         if (entry.isIntersecting) {
           entry.target.classList.add("show");
-        } else {
-          entry.target.classList.remove("show");
         }
       });
     });
@@ -45,32 +43,29 @@ export default function Home() {
         <TopNav />
         <div className="flex flex-col items-stretch">
           <section
-            className="py-[4rem]  md:py-[5rem] hide show opacity-0 "
+            className="py-[4rem]  md:py-[5rem] hide  opacity-0 "
             id="main"
           >
             <HeroSection />
           </section>
           <section
             id="about"
-            className="pt-[4rem] md:pt-[5rem] hide show opacity-0  "
+            className="pt-[4rem] md:pt-[5rem] hide  opacity-0  "
           >
             <AboutMe />
           </section>
           <section
             id="projects"
-            className="pt-[4rem] md:pt-[5rem] hide show opacity-0 "
+            className="pt-[4rem] md:pt-[5rem] hide  opacity-0 "
           >
             <ProjectSection />
           </section>
-          <section
-            id="exp"
-            className="pt-[4rem] md:pt-[5rem] hide show opacity-0 "
-          >
+          <section id="exp" className="pt-[4rem] md:pt-[5rem] hide opacity-0 ">
             <ExperienceSection />
           </section>
           <section
             id="contact"
-            className="pt-[4rem] md:pt-[5rem] hide show opacity-0  "
+            className="pt-[4rem] md:pt-[5rem] hide opacity-0  "
           >
             <ContactSection />
           </section>

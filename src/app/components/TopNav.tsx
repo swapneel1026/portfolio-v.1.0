@@ -35,7 +35,7 @@ const TopNav = () => {
         <Link
           className="border text-[0.8rem] sm:text-[1.2rem] border-[#0aff9d] p-1 sm:p-2 rounded-md text-[#0aff9d] hover:bg-[#0aff9d] animate-pulse  hover:text-[#000] hover:transition-opacity duration-300  shadow-inner shadow-[#0aff9d]"
           href={
-            "https://drive.google.com/file/d/1W8beBynnQe4kBWouMrULbxCEvm4Mg9rn/view?usp=drivesdk"
+            "https://drive.google.com/file/d/1W8beBynnQe4kBWouMrULbxCEvm4Mg9rn/view?uspk"
           }
           target="_blank"
         >

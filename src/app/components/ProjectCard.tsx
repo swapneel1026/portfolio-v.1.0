@@ -7,6 +7,11 @@ export function ProjectCard({ data }: any) {
   return (
     <article className="sm:max-w-xs md:max-w-sm  xl:max-w-2xl ">
       <div className="bg-[#232323] px-4 pt-6 rounded-lg pb-0  flex items-center justify-center">
+      <Link
+            className="transition-all duration-200 text-[#ebecf3] hover:text-[#0aff9d] "
+            href={data?.liveProjectLink}
+            target={data?.liveProjectLink ? "_blank" : "_self"}
+          >
         <Image
           src={data?.imageOfProject as string}
           alt=""
@@ -15,8 +20,9 @@ export function ProjectCard({ data }: any) {
           style={{
             objectFit: "inherit",
           }}
-          className="hover:rotate-[0deg] rotate-[-6deg] transition-transform duration-1000 hover:scale-110 scale-75 rounded-lg"
+          className="cursor-pointer  hover:rotate-[0deg] rotate-[-6deg] transition-transform duration-1000 hover:scale-110 scale-75 rounded-lg"
         />
+        </Link>
       </div>
       <h1 className="text-white font-bold text-lg flex items-center justify-between mt-8">
         {data?.name}

@@ -42,6 +42,21 @@ const ProjectSection = () => {
       githubLink: "https://github.com/swapneel1026/portfolio-v.1.0",
       liveProjectLink: "https://frontendswapneel.vercel.app/",
     },
+    {
+      imageOfProject: "/form-builder-ss.png",
+      name: "DND Form Builder",
+      techStackUsed: [
+        "react.js",
+        "tailwind",
+        "javascript",
+        "daisy-ui",
+        "react-beautiful-dnd",
+      ],
+      desc: "Our project is a form builder with drag and drop function to re-arrange form elements ,with React.js, Tailwind CSS, JavaScript, Daisy-ui and react-beautiful-dnd. Using the power of reazct beautiful dnd we can drag and drop elements and rearrange the form .",
+
+      githubLink: "https://github.com/swapneel1026/form-builder-proto",
+      liveProjectLink: "https://form-builder-proto-beta.vercel.app/",
+    },
     
 
   ];
